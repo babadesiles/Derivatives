@@ -1,48 +1,49 @@
 # Derivatives
-Options Pricing, Greeks analysis and Hedging 
+## Options Pricing, Greeks analysis and Hedging 
 
-\section*{Finance\_Learning}
+A  workspace dedicated to learning quantitative finance, derivatives pricing, and portfolio management through both theory and practical implementation.
 
-Finance\_Learning is a personal workspace dedicated to learning
-quantitative finance, derivatives pricing and portfolio management
-through both theoretical study and practical Python implementation.
+The objective of this project is to build a strong understanding of financial markets by combining mathematical foundations, financial theory, and Python programming. Concepts are explored through research notes, simulations, and numerical implementations.
 
-The objective of this project is to progressively build a strong
-understanding of financial markets by combining mathematical
-foundations, financial theory and numerical methods.
+Topics Covered
 
-\subsection*{Topics Covered}
+Mathematical Foundations
+	•	Probability spaces and filtrations
+	•	Brownian motion and Geometric Brownian Motion
+	•	Itô’s lemma
+	•	Martingales
 
-\textbf{Mathematical Foundations}
-\begin{itemize}
-\item Probability spaces and filtrations
-\item Brownian motion and Geometric Brownian Motion
-\item Itô's lemma
-\item Martingales
-\end{itemize}
+Financial Theory
+	•	No-arbitrage principle
+	•	Risk-neutral pricing
+	•	Put–call parity
 
-\textbf{Financial Theory}
-\begin{itemize}
-\item No-arbitrage principle
-\item Risk-neutral pricing
-\item Put--call parity
-\end{itemize}
+Derivatives Pricing
+	•	Option payoffs (Call and Put)
+	•	Black–Scholes model
+	•	Greeks and sensitivities
 
-\textbf{Derivatives Pricing}
-\begin{itemize}
-\item Call and Put option payoffs
-\item Black--Scholes model
-\item Greeks and sensitivities
-\end{itemize}
+Numerical Methods
+	•	Binomial tree pricing
+	•	Monte Carlo simulation
 
-\textbf{Numerical Methods}
-\begin{itemize}
-\item Binomial tree pricing
-\item Monte Carlo simulation
-\end{itemize}
+Project Structure
 
-\subsection*{Goal}
+Finance_Learning/
+│
+├── venv/          # Python virtual environment
+├── notebooks/     # Jupyter notebooks and experiments
+├── scripts/       # Python implementations
+├── data/          # Market datasets
+└── reports/       # LaTeX research notes
 
-The goal of this project is to bridge academic finance concepts with
-practical implementation, developing quantitative intuition and
-technical skills relevant to derivatives pricing and risk management.
+Setup
+
+python3 -m venv venv
+source venv/bin/activate
+pip install numpy pandas scipy matplotlib jupyter
+
+Goal
+
+The goal is to progressively develop practical skills in quantitative finance, bridging academic concepts with real-world applications in derivatives pricing and risk management.
+
